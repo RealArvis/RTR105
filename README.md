@@ -1,6 +1,11 @@
 # RTR105
-Studiju kursa datormācība (pamatkurss) elektroniskā klade
+Studiju kursa datormācība (pamatkurss) elektroniskā klade [^1]  
  
+Satura rādītājs:
+- 1. sadaļa
+- 2. sadaļa
+- 3. sadaļa
+
 [Piemērs ar linku](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ![Piemērs ar bildi](https://upload.wikimedia.org/wikipedia/commons/c/c9/Svg_example4.svg)
@@ -32,3 +37,7 @@ Piemērs ar sarakstu (5):
 - [ ] jāizpilda
 
 Piemērs ar emoji: :cookie:
+
+
+
+
