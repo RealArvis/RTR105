@@ -2,7 +2,7 @@
 Studiju kursa datormācība (pamatkurss) elektroniskā klade [^1]  
  
 Satura rādītājs:
-- [Piemēri ar sarakstiem](
+- [Piemēri ar sarakstiem]
 - 2. sadaļa
 - 3. sadaļa
 
