@@ -2,7 +2,7 @@
 Studiju kursa datormācība (pamatkurss) elektroniskā klade [^1]  
  
 Satura rādītājs:
-- 1. sadaļa
+- [Piemēri ar sarakstiem](
 - 2. sadaļa
 - 3. sadaļa
 
@@ -10,6 +10,7 @@ Satura rādītājs:
 
 ![Piemērs ar bildi](https://upload.wikimedia.org/wikipedia/commons/c/c9/Svg_example4.svg)
 
+## Piemēri ar sarakstiem
 Piemērs ar sarakstu (1):
 - 1. elements
 - 2. elements
