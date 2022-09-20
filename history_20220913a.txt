@@ -1,4 +1,67 @@
     1  VirtualBox --startvm XP
     2  quartus
-    3  history
-    4  history > history_20220913a.txt
+    3  ls
+    4  whereis ls
+    5  whereis pwd
+    6  ls -lt /bin/ls
+    7  ls -lt /bin/ls/
+    8  ls -lt /bin/ls
+    9  cd bin
+   10  cd /bin$
+   11  cd /bin
+   12  ls
+   13  ls -lt
+   14  ls -la
+   15  echo $0
+   16  cd bin/ls
+   17  cd /bin/ls
+   18  cd /bin
+   19  cat ls
+   20  cd
+   21  cd /bin
+   22  cd
+   23  pwd
+   24  ls
+   25  cd /bin
+   26  whereis ls
+   27  cd
+   28  echo $path
+   29  echo $PATH
+   30  cd /bash
+   31  cd /bin
+   32  ls
+   33  /ls lt
+   34  ls lt
+   35  ls -lt
+   36  cd
+   37  git clone
+   38  git clone https:/github.com/realarvis/RTR15
+   39  git clone https:/github.com/realarvis/RTR105
+   40  git clone https:/github.com/realarvis/RTR15
+   41  git clone https:/github.com/realarvis/RTR105
+   42  git clone https:?/github.com/realarvis/RTR105
+   43  git clone https://github.com/realarvis/RTR105
+   44  git clone github.com/realarvis/RTR105
+   45  git clone https://github.com/realarvis/RTR105
+   46  ls -l
+   47  ls -la
+   48  ls -l
+   49  cd rtr105
+   50  cd /RTR105
+   51  cd RTR105
+   52  cd bin/
+   53  cd /bin
+   54  cd RTR105
+   55  cd RTR105/
+   56  cd
+   57  cd RTR105
+   58  cd
+   59  cd RTR105/
+   60  cd
+   61  cd /home/RTR105
+   62  cd RTR105/
+   63  cd
+   64  cd /home/user/RTR105
+   65  ls -lt
+   66  history 
+   67  history > history_20220913a.txt 
