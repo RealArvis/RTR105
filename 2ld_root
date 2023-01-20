@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <math.h>
+
+double j2(double x) {
+    double value = 0.0;
+    double sum = 0.0;
+    for (int n = 1; n <= 100; n++) {
+        double term = pow(-1, n) * pow(x / 3, 2 * n + 2) / pow(n, 2) / (2 * n + 1);
+        sum += term;
+    }
+    value = (x / 3) * sum;
+    return value;
+}
+
+double bisection(double a, double b, double target, double error, int max_iter) {
+    double c = (a + b) / 2;
+    double fc = j2(c) - target;
+    if (fabs(fc) < error || max_iter == 0) {
+        return c;
+    }
+    if (j2(a) - target > 0) {
+        return bisection(a, c, target, error, max_iter - 1);
+    }
+    else {
+        return bisection(c, b, target, error, max_iter - 1);
+    }
+}
+
+int main() {
+    double a, b, target, error;
+    int max_iter = 1000;
+    printf("Enter the value of a: ");
+    scanf_s("%lf", &a);
+    printf("Enter the value of b: ");
+    scanf_s("%lf", &b);
+    printf("Enter the value of target: ");
+    scanf_s("%lf", &target);
+    printf("Enter the value of error tolerance: ");
+    scanf_s("%lf", &error);
+    double root = bisection(a, b, target, error, max_iter);
+    printf("The root of j2(x) = %f is %f\n", target, root);
+    return 0;
+}
